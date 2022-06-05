@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Форма</title>
+<style>
+
+</style>
+</head>
+<body bgcolor="F1E3FF">
+
+<form method="get" action="">
+<h3>Форма</h3>
+<div>
+<fieldset>
+<legend >Регистрационная информация</legend>
+Введите логин:<input type="text" value="<10 символов" name="form_name"/>
+<br/>
+Введите пароль:<input type="password" value="Ваше имя"
+name="form_pass" value="" maxlength="8"/>
+</fieldset>
+
+<fieldset>
+<legend align="center">Личная информация</legend>
+Имя:<input type="text" value="Ваше имя" name="form_name"/>
+<br/>
+Фамилия:<input type="text" value="Ваша фамилия" name="form_name"/><br/>
+Отчество:<input type="text" value="Ваше отчество" name="form_name"/>
+<br/>
+<label for="form_sex">Ваш пол:</label>
+<input type="radio" name="form_sex" value="1" id="form_sex1"/>
+<label for="form_sex1">Мужской</label>
+<input type="radio" name="form_sex" value="2" id="form_sex2"/>
+<label for="form_sex2">Женский </label>
+<input type="radio" name="form_sex" value="3" id="form_sex3"/>
+<label for="form_sex3">Не хочу отвечать</label>
+</br>
+<label for="form_age">Ваш возраст:</label>
+<input type="radio" name="form_age" value="1" id="form_age1"/>
+<label for="form_radio1">до 18</label>
+<input type="radio" name="form_age" value="2" id="form_age2"/>
+<label for="form_radio2">18-25</label>
+<input type="radio" name="form_age" value="3" id="form_age3"/>
+<label for="form_radio3">25-35</label>
+<input type="radio" name="form_age" value="4" id="form_age4"/>
+<label for="form_radio3">35-50</label>
+<input type="radio" name="form_age" value="5" id="form_age5"/>
+<label for="form_radio3">старше 50</label>
+</fieldset>
+
+<fieldset>
+<legend align="right">Дополнительная информация</legend>
+
+Место проживания:<select name="form_select" >
+<option value="1">Москва</option>
+<option value="2">Санкт-Петербург</option>
+<option value="3">Казань</option>
+<option value="4">Саранск</option>
+<option value="5">Краснодар</option>
+<option value="6">Белгород</option>
+<option value="7">Йош-Корола</option>
+</select>
+<br/>
+<select multiple size = "7" name="form_select">
+Область работы(можно выбрать несколько):<br/>
+<optgroup label="Журналистика">
+<option value="1">Бизнес</option>
+<option value="2">Экология</option>
+<option value="3">Туризм</option>
+</optgroup>
+<optgroup label="Программирование">
+<option value="777">Web-программирование</option>
+<option value="778">C/C++</option>
+<option value="779">front-end developer</option>
+<option value="780">back-end developer</option>
+</optgroup>
+<optgroup label="Медицина">
+<option value="1">Хирургия</option>
+<option value="2">Стомотология</option>
+<option value="3">Педиатрия</option>
+</optgroup>
+</select>
+<br/>
+
+Увлечения:<input type="checkbox" name="form_checkbox"value="1"
+id="id_checkbox"/>
+<label for="id_checkbox">Танцы</label>
+<input type="checkbox" name="form_checkbox1"value="1"
+id="id_checkbox"/>
+<label for="id_checkbox1">Рисование</label>
+<input type="checkbox" name="form_checkbox2"value="1"
+id="id_checkbox"/>
+<label for="id_checkbox2">Музыка</label>
+<input type="checkbox" name="form_checkbox3"value="1"
+id="id_checkbox"/>
+<label for="id_checkbox3">Чтение</label><br/>
+<br/>
+Добавьте свое фото: <input type="submit" value="Выберите файл" name="form_submit"/><br/>
+Расскажите немного о себе:<br/>
+<textarea name="form_bigtext" rows="5">Введите текст </textarea>
+</fieldset>
+
+<fieldset>
+<legend align="center">Информация о нас</legend>
+Соглашение:<br/>
+<textarea disabled name="form_bigtext" rows="5">Условия соглашения</textarea>
+</fieldset>
+
+<input type="submit" value="Отправить" name="form_submit"/><input type="submit" value="Сбросить" name="form_submit"/>
