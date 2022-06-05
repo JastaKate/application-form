@@ -1,4 +1,8 @@
 # Application form :bookmark_tabs:
+
+![Форма ](https://user-images.githubusercontent.com/106038032/172047496-1f5498e7-32d0-4c47-939b-b49dcf7afcce.gif)
+
+
 The form was created to receive data about a new user registering on the site 
 
 <b>Input</b> elements of type <b>radio</b> is used to select gender and age:
@@ -55,4 +59,4 @@ Using the <b>textarea</b> tag, we create a field for entering additional informa
     <textarea disabled="" name="form_bigtext" rows="5">Условия соглашения</textarea>
     
     
-![Форма ](https://user-images.githubusercontent.com/106038032/172047496-1f5498e7-32d0-4c47-939b-b49dcf7afcce.gif)
+
